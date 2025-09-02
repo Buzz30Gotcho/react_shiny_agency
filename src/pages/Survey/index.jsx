@@ -8,15 +8,18 @@ function Survey() {
 
     const prevQuestionNumber = number === 1 ? 1 : number - 1
     const nextQuestionNumber = number + 1
+    
 
   return (
     <div>
 
+    
       <h1>Questionnaire 🧮</h1>
       <h2>Question {question_number}</h2>
 
+
       <Link to={`/survey/${prevQuestionNumber}`}>Précédent</Link>
-      
+
       {number === 10 ? (
         <Link to="/resultats">Résultats</Link>
       ) : (
