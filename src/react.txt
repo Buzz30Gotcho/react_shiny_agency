@@ -1,0 +1,12 @@
+Avec les Single Page Applications (SPA), l’utilisateur a l'impression de naviguer sur différentes pages, mais il n'existe qu’une seule page HTML sur laquelle le contenu est greffé avec JavaScript.
+
+React Router est l’une des bibliothèques qui permettent de transformer une app React en SPA.
+
+Les Outlets permettent d’ajouter des composants dans des routes enfants d’une page.
+
+Les composants BrowserRouter, Routes et Route permettent de gérer l’affichage des différentes pages.
+
+Il est possible de passer des paramètres dans une route et de les récupérer avecuseParams().
+
+En indiquant une route avecpath="*"à la fin des routes, cela permet de capturer toutes les routes dont le path ne correspond à aucune route déclarée, et donc de créer une page 404.
+
