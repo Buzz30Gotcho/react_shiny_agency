@@ -19,17 +19,10 @@ const freelanceProfiles = [
     },
 ]
 
-const number =[1,2,3,4]
-const list_number=number.map((num)=>
-    <li>{num}</li>
-)
-    
-
 
 function Freelances() {
     return (
         <div>
-                u{list_number}
 
             <h1>Freelances 👩·💻👨·💻👩·💻</h1>
             {freelanceProfiles.map((profile, index) => (
